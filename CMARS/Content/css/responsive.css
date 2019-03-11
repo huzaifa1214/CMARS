@@ -1,0 +1,573 @@
+@charset "utf-8";
+
+/* Responsive styles
+-------------------------------------------------------------- */
+
+/**/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/* sc_services */
+	.sc_services {padding: 35px;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	/* sc_services */
+	.sc_services_content {padding:0;}
+	.sc_services {padding: 20px;}
+
+	/* panel_image */
+	.middle_panel_image {height: 475px;}
+	.section_three .row.dt [class*="col-"]{
+	  float: none;
+	  display: inline-table;
+	  width: 49%;
+	}
+	.section_three .row.dt [class*="col-"]:nth-child(3):before{
+	  border: none;
+	}
+	.section_three .row.dt [class*="col-"]:nth-child(3){
+	  margin-top: 13px;
+	}
+	.section_padding_bottom_137 > .container {
+		padding-bottom: 50px;
+	}
+}
+
+
+/*
+Apple iPhone 4 & 4S
+Apple iPod Touch (4th generation)
+*/
+/* With side menu
+@media (min-width: 1280px) and (max-width: 1365px) {
+*/
+/* Without side menu */
+@media (min-width: 960px) and (max-width: 1135px) {
+	.post_featured+.post_title.style_1 {
+		height: 60px;
+	}
+}
+
+
+
+/*
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+/* With side menu
+@media (min-width: 768px) and (max-width: 1279px) {
+*/
+/* Without side menu */
+@media (min-width: 768px) and (max-width: 959px) {
+
+	/*
+	**vertical margins and paddings
+	*/
+
+	.post_featured+.post_title.style_1 {
+		height: 60px;
+	}
+
+
+	/* sc_services */
+	.sc_services_content {padding:0;}
+	.sc_services {padding: 20px;}
+
+	/* panel_image */
+	.top_panel_image {height: 480px;}
+	.top_panel_image .panel_image_logo {margin-left: -90px; top: 110px;}
+	.top_panel_image .panel_image_header {top: 225px;}
+	
+	.middle_panel_image .panel_image_header {top: 70px;}
+
+	.footer_panel_image {height: 420px;}
+	.footer_panel_image .panel_image_header { top: 105px;}
+
+}
+
+
+/*
+Portrait orientation
+
+Sony Xperia
+LG Optimus
+Blackberry Storm 3, Torch 9850 & Torch 9860
+Nokia Lumia 610, 710 & 800
+HTC Desire, Desire Z, Desire S & One V
+Samsung Galaxy
+*/
+@media (min-width: 480px) and (max-width: 767px) {
+
+	/*
+	**vertical margins and paddings
+	*/
+
+	[class*="col-"] + [class*="col-"] {margin-top: 30px !important;}
+	
+	/* sc_services */
+	.sc_services_content {padding:0;}
+	.sc_services {padding: 20px; width: 100%;}
+
+	/* panel_image */
+	.top_panel_image {height: 480px;}
+	.top_panel_image .panel_image_logo {margin-left: -90px; top: 110px;}
+	.top_panel_image .panel_image_header {top: 225px;}
+	
+	.middle_panel_image {height: 400px;}
+	.middle_panel_image .panel_image_header {top: 70px;}
+	.image_overlay {margin-top: 0;}
+
+	.footer_panel_image {height: 420px;}
+	.footer_panel_image .panel_image_header { top: 105px;}
+
+	.section_three h2 {
+		font-size: 68px;
+	}
+	.section_three .col-md-3 + .col-md-3:before {
+		border: none;
+	}
+	
+}
+
+@media (max-width: 767px) {
+}
+
+
+
+/*
+Very common low res
+*/
+@media (max-width: 479px) {
+	/*
+	**vertical margins and paddings
+	*/
+
+
+	[class*="col-"] + [class*="col-"] {margin-top: 30px !important;}
+	
+	/* sc_services */
+	.sc_services_content {padding:0;}
+	.sc_services {padding: 20px; width: 100%;}
+
+	/* panel_image */
+	.top_panel_image {height: 480px;}
+	.top_panel_image .panel_image_logo {margin-left: -90px; top: 95px;}
+	.top_panel_image .panel_image_header {top: 180px; padding-left: 15px !important; padding-right: 15px !important;}
+	
+	.middle_panel_image {height: 400px;}
+	.middle_panel_image .panel_image_header {top: 52px; padding-left: 15px !important; padding-right: 15px !important;}
+	.image_overlay {margin-top: 0;}
+
+	.footer_panel_image {height: 420px;}
+	.footer_panel_image .panel_image_header {top: 65px;padding-left: 15px !important; padding-right: 15px !important;}
+
+	.section_header {font-size: 33px; margin-top: 0; line-height: 40px;}
+	.section_subheader { font-size: 16px; line-height: 26px;}
+	
+	.section_one h1 {
+		font-size: 170px;
+	}
+	.section_one h2 {
+		font-size: 25px;
+		margin-top: 21px;
+	}
+	.section_one h5 {
+		margin-top: -15px;
+	}
+
+	.section_one .sc_button {
+	    margin-top: 15px;
+	}
+
+	.section_three h2 {
+		font-size: 50px;
+	}
+	.section_three h3 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.section_padding_bottom_137 > .container {
+		padding-bottom: 50px;
+	}
+
+	.section_four h2 {
+		font-size: 34px;
+		margin-bottom: 30px;
+	}
+
+	.section_padding_bottom_35 > .container {
+	    padding-bottom: 25px;
+	}
+
+	.section_padding_bottom_105 > .container {
+		padding-bottom: 70px;
+	}
+	.section_padding_top_59 > .container {
+	    padding-top: 40px;
+	}
+
+}
+
+/*
+**vertical margins and paddings
+*/
+
+@media (max-width: 1024px) {
+	
+
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+
+	.section_two .row + .row{
+		width: 94%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.section_two .row + .row .col-sm-6:nth-child(1){
+		padding-right: 26px;
+	}
+	.section_two .row + .row .col-sm-6:nth-child(1) .post_featured{
+		padding: 0 0 0 39px;
+	}
+	.section_two .row + .row .col-sm-6:nth-child(2){
+		padding-left: 26px;
+	}
+	.section_two .row + .row .col-sm-6:nth-child(2) .post_featured{
+		padding: 0 39px 0 0;
+	}
+
+	// .section_two .row + .row .col-sm-6:nth-child(1n+1){
+	//   padding-right: 24px;
+	//   padding-left: 11px;
+	// }
+
+	// .section_two .row + .row .col-sm-6:nth-child(2n+2){
+	//   padding-right: 11px;
+	//   padding-left: 24px;
+	// }
+
+	.section_two .row + .row .col-md-4:nth-child(1),
+	.section_two .row + .row .col-md-4:nth-child(4),
+	.section_two .row + .row .col-md-4:nth-child(7){
+	  // padding-left: 10px;
+	  padding-right: 35px;
+	}
+
+	.section_two .row + .row .col-md-4:nth-child(2),
+	.section_two .row + .row .col-md-4:nth-child(5),
+	.section_two .row + .row .col-md-4:nth-child(8){
+	  padding-right: 25px;
+	  padding-left: 25px;
+	}
+
+	.section_two .row + .row .col-md-4:nth-child(3),
+	.section_two .row + .row .col-md-4:nth-child(6),
+	.section_two .row + .row .col-md-4:nth-child(9){
+	  // padding-right: 10px;
+	  padding-left: 35px;
+	}
+}
+
+@media (min-width: 1268px) and (max-width: 1567px) {
+	.section_one .section_logo {
+	    top: 10%;
+	}
+	.section_one h1 {
+	    margin-top: 2em;
+	}
+	.section_one .section_button {
+	    margin-top: 4em;
+	}
+	.section_ext_logo {
+	    margin-top: 2em;
+	}
+}
+
+@media (min-width: 1168px) and (max-width: 1267px) {
+	.section_one .section_logo {
+	    top: 10%;
+	}
+	.section_one h1 {
+	    margin-top: 2em;
+	}
+	.section_one .section_button {
+	    margin-top: 2em;
+	}
+	.section_ext_logo {
+	    margin-top: 2em;
+	}
+	.block_content {
+	    margin-bottom: 30px;
+	}
+	.block_desc{
+		max-width: 50%;
+	}
+	.block_desc h4 {
+		margin: 0;
+	}
+	.block_desc h4 > br{
+		display: none;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1167px) {
+	.section_one .section_middle {
+		width: 100%;
+	}
+	.section_one .section_logo {
+	    top: 10%;
+	}
+	.section_one h1 {
+	    margin-top: 2em;
+	}
+	.section_one .section_button {
+	    margin-top: 1em;
+	}
+	.section_ext_logo {
+	    margin-top: 2em;
+	}
+	.block_content {
+	    margin-bottom: 30px;
+	}
+	.block_desc{
+		max-width: 50%;
+	}
+	.block_desc h4 {
+		margin: 0;
+	}
+	.block_desc h4 > br{
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.section_one .section_middle {
+		width: 100%;
+	}
+	.section_one .section_logo {
+	    top: 8%;
+	}
+	.section_one h1 {
+	    margin-top: 1.75em;
+	    font-size: 50px;
+	}
+	.section_one h5 {
+	    margin-top: 0;
+	    font-size: 20px;
+	}
+	.section_one .section_button {
+	    margin-top: 1em;
+	}
+	.section_one .sc_button{
+		margin-top: 0;
+	}
+	.section_ext_logo {
+	    margin-top: 1em;
+	    margin-bottom: 0;
+	}
+	.block_icon_content img {
+	    max-height: 37px;
+	}
+	.block_content {
+	    margin-bottom: 30px;
+	}
+	.block_icon {
+	    margin-right: 10px;
+	}
+	.block_icon img {
+	    width: 85%;
+	}
+	.block_desc{
+		max-width: 61%;
+	}
+
+	.block_desc h4 {
+		margin: 0;
+		font-size: 14px;
+	}
+	.block_desc h4 > br{
+		display: none;
+	}
+	.sc_button.sc_button_iconed:before {
+		font-size: 1.75em;
+	    margin-left: 0;
+	    margin-right: 8px;
+	    top: 4px;
+	}
+	.sc_button.sc_button_size_large {
+	    font-size: 13px;
+	}
+	.sc_button.sc_button_iconed {
+	    padding: 0.4em 0.4em 0.7em;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	.section_one .section_middle {
+		width: 100%;
+	}
+	.section_one .section_logo {
+	    top: 8%;
+	}
+	.section_one .section_logo img{
+		width: 65%;
+	}
+	.section_one h1 {
+	    margin-top: 1em;
+	    font-size: 40px;
+	    margin-bottom: 0;
+	}
+	.section_one h5 {
+	    margin-top: 0;
+	    font-size: 20px;
+	}
+	.section_one h4 {
+	    display: none;
+	}
+	.section_one .section_button {
+	    margin-top: 1em;
+	}
+	.section_one .sc_button{
+		margin-top: 0;
+	}
+	.section_ext_logo {
+	    display: none;
+	}
+	.block_content {
+	    margin-bottom: 30px;
+	}
+	.block_icon {
+	    margin-right: 10px;
+	}
+	.block_desc{
+		max-width: 61%;
+	}
+
+	.block_desc h4 {
+		margin: 0;
+	}
+	.block_desc h4 > br{
+		display: none;
+	}
+	.sc_button.sc_button_iconed:before {
+		font-size: 1.75em;
+	    margin-left: 0;
+	    margin-right: 8px;
+	    top: 4px;
+	}
+	.sc_button.sc_button_size_large {
+	    font-size: 13px;
+	}
+	.sc_button.sc_button_iconed {
+	    padding: 0.4em 0.4em 0.7em;
+	}
+	.section-title {
+		font-size: 40px !important;
+	}
+}
+
+@media (max-width: 479px) {
+	.section_one .section_middle {
+		width: 100%;
+	}
+	.section_one .section_logo {
+	    top: 12%;
+	}
+	.section_one .section_logo img{
+		width: 65%;
+	}
+	.section_one h1 {
+	    margin-top: 1em;
+	    font-size: 26px;
+	}
+	.section_one h5 {
+	    margin-top: 0;
+	    font-size: 16px;
+	}
+	.section_one h4 {
+	    display: none;
+	}
+	.section_one .section_button {
+	    display: none;
+	}
+	.section_one .sc_button{
+		margin-top: 0;
+	}
+	.section_ext_logo {
+	    display: none;
+	}
+	.block_content {
+	    margin-bottom: 30px;
+	}
+	.block_icon {
+	    margin-right: 10px;
+	}
+	.block_desc{
+		max-width: 61%;
+	}
+
+	.block_desc h4 {
+		margin: 0;
+	}
+	.block_desc h4 > br{
+		display: none;
+	}
+	.sc_button.sc_button_iconed:before {
+		font-size: 1.75em;
+	    margin-left: 0;
+	    margin-right: 8px;
+	    top: 4px;
+	}
+	.sc_button.sc_button_size_large {
+	    font-size: 13px;
+	}
+	.sc_button.sc_button_iconed {
+	    padding: 0.4em 0.4em 0.7em;
+	}
+	.section-title {
+		font-size: 26px !important;
+	}
+	.section_padding_top_66 > .container {
+	    padding-top: 30px;
+	}
+	.section_padding_bottom_100 > .container {
+	    padding-bottom: 50px;
+	}
+	.section_two .row + .row {
+	    margin-top: 30px;
+	}
+	.sc_line {
+	    margin: 2em 0;
+	}
+	.block_icon_content img {
+	    max-height: 45px;
+	}
+
+}
